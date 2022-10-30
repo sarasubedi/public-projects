@@ -1,0 +1,19 @@
+java Performance linked 0
+
+-- Instructor's solution: 
+[128 linked] put loop count: 499500
+[128 linked] get loop count: 1000000
+[128 bst   ] put loop count: 11079
+[128 bst   ] get loop count: 12952
+[128 hash  ] put loop count: 1
+[128 hash  ] get loop count: 0
+--
+
+--Your solution: 
+[128 linked] put loop count: 499500
+[128 linked] get loop count: 1000000
+[128 bst] put loop count: 11079
+[128 bst] get loop count: 12952
+[128 hash] put loop count: 1
+[128 hash] get loop count: 0
+
