@@ -14,8 +14,6 @@ OPTIONS=-g -Wall -Werror -Wunreachable-code -std=c11 -DDEBUG -D_GNU_SOURCE
 
 COMPILE=$(COMPILER) $(OPTIONS)
 BUILD=build
-
-
 PROGRAM=PMan
 
 all: program
