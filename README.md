@@ -1,2 +1,2 @@
 # public-projects  
-contains best projects
+contains my most notable projects
