@@ -3,7 +3,7 @@ This program reads a disk image file using the fat file system and can dislay it
 Date: April 4th, 2023
 Name: Sara Subedi
 
-To run my program type "make" then:
+To run my program type "make" then: <br>
     Part I   - type "./diskinfo <disk image>"
         Provides basic info of the disk image that is inputed.
     Part II  - type "./disklist <disk image>"
