@@ -2,8 +2,8 @@ This program reads a disk image file using the fat file system and can dislay it
 
 Date: April 4th, 2023
 Name: Sara Subedi
-
-To run my program type "make" then: <br>
+<pre>
+To run my program type "make" then:
     Part I   - type "./diskinfo <disk image>"
         Provides basic info of the disk image that is inputed.
     Part II  - type "./disklist <disk image>"
@@ -14,3 +14,4 @@ To run my program type "make" then: <br>
         Takes the given file and puts it into the directory, is destionation path isn't provided 
         the file is put into the root. The destination path should be in the format 
         "dirname/subdirname" or "dirname/subdirname/"
+</pre>
