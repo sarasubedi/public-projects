@@ -1,0 +1,129 @@
+#container {
+  overflow:hidden;
+  width:1000px;
+  height:700px;
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:lightgreen;
+}
+
+#gameScreen {
+  width:1000px;
+  height:700px;
+  position:absolute;
+  top:0px;
+  background-position:center bottom;
+  display:none;
+  z-index:1;
+}
+
+
+#play {
+  width:1000px;
+  height:700px;
+  overflow:hidden;
+  position:absolute;
+  background-image:url(images/Grass.png);
+  top:0px;
+  background-position:center bottom;
+  display:none;
+  z-index:0;
+}
+
+#leftTree{
+  background-image: url(images/trees.png);
+  background-size: 200px 200px;
+  z-index:4;
+  width:200px;
+  height:700px;
+  top:0px;
+  left:0px;
+  position:absolute;
+  
+}
+
+#rightTree{
+  background-image: url(images/trees.png);
+  background-size: 200px 200px;
+  z-index:4;
+  width:200px;
+  height:700px;
+  top:0px;
+  right:0px;
+  position:absolute;
+}
+
+#startScreen {
+  width:1000px;
+  height:700px;
+  background-color:green;
+}
+
+#instructions {
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  width:1000px;
+  height:700px;
+  background-color:#285943;
+  display:none;
+}
+
+#horse {
+  position:absolute;
+  height:140px;
+  width:52px;
+  top:554px;
+  left:466px;
+}
+
+#gameOption {
+  width:1000px;
+  height:700px;
+  background-color:#285943;
+  display:none;
+}
+
+#cont2 {
+  /*position:relative;
+  margin-top: 100px;*/
+  margin-left:auto;
+  margin-right:auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Ultra', serif;
+  font-size: 50px;
+}
+
+p {
+  color:#aafcb8;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+}
+
+ul {
+  color:#aafcb8;
+  font-size: 20px;
+  margin-left: 180px;
+  font-family: 'Poiret One', cursive;
+}
+
+button {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 25px;
+  font-family: 'Poiret One', cursive;
+}
