@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Endurance Racing</title>
+    <link rel="stylesheet" href="horseRace.css">
+	<script src="horseRace.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Ultra&display=swap" rel="stylesheet">	
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+  </head>
+  
+  
+  <!--	<link href="https://fonts.googleapis.com/css?family=Poiret+One|Ultra&display=swap" rel="stylesheet">-->
+  
+  <body id="body">
+    
+	<div id="container">
+	  <div id="startScreen">
+	    <div id="cont2">
+	      <h1 id="startTitle">Endurance Racing</h1>
+	      <button onclick="changeScreen(1)">Play</button>
+	      <button onclick="changeScreen(2)">Instructions</button>
+		  <button>Credits</button>
+		</div>
+	  </div>
+	  
+	  <div id="instructions">
+	    <h1>Instructions for Endurance Racing</h1>
+	    <p>
+		  The Goal of the game is to reach the end of the course as fast as possible. 
+		  <br> 
+		  Use the ‘A’ and ‘D’ keys to move side to side, and the 'W' and 'S' keys
+		  <br>
+		  to move backwards and forwards, to avoid the following:
+		</p>
+		  
+		<ul>
+		  <li>Horses</li>
+		  <li>Branches</li>
+		  <li>Rocks</li>
+		  <li>Puddles</li>
+		  <li>Logs</li>
+	  	</ul>
+		  
+		<p>
+		  The longer you last without hitting an object, the faster you go. 
+		  <br>
+		  <strong>Beware</strong>, if you hit an object, your speed will be reduced to what you started at.
+        </p>
+		<button onclick="changeScreen(4)">Main Menu</button>
+	  </div>
+	  
+	  <div id="gameOption">
+	    <button onclick="changeScreen(6)">Pleasure Ride (20 miles)</button>
+		<button onclick="changeScreen(7)">Non-Competitive Trial Ride (27 miles)</button>
+		<button onclick="changeScreen(8)">Competitive Trial Ride (45 miles)</button>
+		<button onclick="changeScreen(9)">Progressive Trial Ride (60 miles)</button>
+		<button onclick="changeScreen(10)">Endurance Ride (100 miles)</button>
+		<button onclick="changeScreen(5)">Main Menu</button>
+	  </div>
+	  
+	  
+	  
+	  <div id="play">
+	    <img id="horse" src="images/horse.png" alt="a horse">
+	  </div>
+	  
+	  <div id="gameScreen">
+	    <div id="leftTree">
+		</div>
+		<div id="rightTree">
+		</div>
+	  
+	  </div>
+	  
+	</div>
+  </body>
+  
+</html>
